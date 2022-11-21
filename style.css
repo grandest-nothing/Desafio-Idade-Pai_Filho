@@ -58,6 +58,10 @@ body {
   box-shadow: -2px 3px 0 rgb(58, 57, 57), -4px 6px 0 #200;
   margin-bottom: 30px;
 }
+.calcular:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}
 .stats span {
   justify-content: center;
   position: relative;
