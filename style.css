@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(248, 89, 89),
+    rgb(92, 92, 233)
+  );
+}
+.container {
+  background-image: linear-gradient(
+    to left,
+    rgb(248, 132, 132),
+    rgb(137, 137, 228)
+  );
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  padding: 20px;
+  position: relative;
+}
+.upper-text {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 30px;
+}
+
+.form input {
+  width: 40%;
+  padding: 1%;
+  outline: none;
+  margin-bottom: 20px;
+  border: 2px solid #333;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: clamp(8px, 2vw, 1rem);
+  box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+}
+.calcular {
+  justify-content: center;
+  width: 20%;
+  padding: 1%;
+  border: 2px solid #000;
+  border-radius: 7px;
+  font-weight: 600;
+  color: rgb(201, 199, 199);
+  background-color: #3a444d;
+  font-size: clamp(8px, 2vw, 1rem);
+  box-shadow: -2px 3px 0 rgb(58, 57, 57), -4px 6px 0 #200;
+  margin-bottom: 30px;
+}
+.stats span {
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  font-size: clamp(8px, 5vw, 1rem);
+  margin-bottom: 10px;
+}
